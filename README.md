@@ -39,8 +39,12 @@ To finish setup, we recommend you either...
  a) Manually add an alias called "lime" to run "haxelib run lime"
  b) Run the following commands:
 
-sudo cp "/usr/local/lib/haxe/lib/lime/8,0,1/templates/bin/lime.sh" /usr/local/bin/lime
-sudo chmod 755 /usr/local/bin/lime
+sudo cp "/usr/local/lib/haxe/lib/lime/8,0,1/templates/bin/lime.sh" /usr/local/bin/lime;
+sudo chmod 755 /usr/local/bin/lime;
 
 Set MAC_USE_CURRENT_SDK to 1
+```
+
+```bash
+haxelib set MAC_USE_CURRENT_SDK 1;
 ```
