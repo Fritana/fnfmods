@@ -29,3 +29,18 @@ haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons;
 haxelib install lime;
 haxelib run lime setup;
 ```
+
+Lime error when runnging setup
+```bash
+cp: /usr/local/bin/lime: Permission denied
+
+To finish setup, we recommend you either...
+
+ a) Manually add an alias called "lime" to run "haxelib run lime"
+ b) Run the following commands:
+
+sudo cp "/usr/local/lib/haxe/lib/lime/8,0,1/templates/bin/lime.sh" /usr/local/bin/lime
+sudo chmod 755 /usr/local/bin/lime
+
+Set MAC_USE_CURRENT_SDK to 1
+```
